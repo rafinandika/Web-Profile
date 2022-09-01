@@ -4,6 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/u1775920/public_html/webprofile/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp index1.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R maintanance $DEPLOYPATH
